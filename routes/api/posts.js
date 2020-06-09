@@ -1,9 +1,12 @@
 const express = require('express');
 const router = express.Router();
+const { check, validationResult} = require('express-validator');
+const auth = require('../../middleware/auth');
 
 
-//@route GET api/users
-//@des Test route
+//@route POST api/post
+//@des Create post
+//@access Private
 
 router.get('/', (req, res)=>{
 res.send('user route')});
