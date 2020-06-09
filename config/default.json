@@ -1,6 +1,8 @@
 {
     "mongoURI": "mongodb+srv://user_1:user_1@mernproject-yvpsw.mongodb.net/<dbname>?retryWrites=true&w=majority",
-    "jwtSecret": "secret"
+    "jwtSecret": "secret",
+    "githubClientId": "685e1a66231582ff92fe",
+    "githubClientSecret": "3d3d260ff511dc015e34e615ed8754cf69de7063"
 }
 
 
